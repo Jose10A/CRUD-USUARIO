@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <link rel="StyleSheet" href="./css/style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Trocchi&display=swap');
+     </style>
+
+</head>
+<body>
+        <div class="head">
+            <h1 class="Titulo">Registro de Alimentos</h1>
+        </div>
+
+
+        <div class="input1">
+            <p>Nombre:<input class="inputalimento" type="text" id="alimento" placeholder="Alimento"></p>
+            <p>Descripcion:<input class="inputdescripcion" type="text" id="descripcion" placeholder="Descripcion"></p>
+        </div>
+
+        <div class="button1">
+            <button onclick="crear()" class="button crear">Crear</button>
+        </div>
+
+        <div class="table">
+            <table id="tabla">
+                <tr>
+                    <th>Comida</th>
+                    <th>Descripcion</th>
+                </tr>
+                <tr>
+                </tr>
+            </table>
+        </div>
+        <script src="./js/index.js"></script>
+</body>
+</html>
