@@ -35,7 +35,7 @@ const crear = function(){
     var alimento = document.getElementById("alimento").value
     var descripcion = document.getElementById("descripcion").value
     
-    CellNombre.innerHTML=descripcion;
+    CellNombre.innerHTML= alimento;
     CellDescripcion.innerHTML=descripcion;
     document.getElementById("alimento").value = "";
     document.getElementById("descripcion").value = "";
