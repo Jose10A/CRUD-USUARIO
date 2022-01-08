@@ -32,11 +32,10 @@ const crear = function(){
   edit.innerHTML="Editar"
 
   edit.onclick=()=>{
-
+    var alimento = document.getElementById("alimento").value
     var descripcion = document.getElementById("descripcion").value
-    localStorage.setItem(alimento,descripcion)
     
-
+    CellNombre.innerHTML=descripcion;
     CellDescripcion.innerHTML=descripcion;
     document.getElementById("alimento").value = "";
     document.getElementById("descripcion").value = "";
